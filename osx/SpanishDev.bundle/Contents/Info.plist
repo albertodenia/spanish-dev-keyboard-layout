@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>org.sil.ukelele.keyboardlayout.spanishdeveloperkeyboardlayout</string>
+	<key>CFBundleName</key>
+	<string>SpanishDev</string>
+	<key>CFBundleVersion</key>
+	<string></string>
+	<key>KLInfo_Spanish - Developer</key>
+	<dict>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.spanishdeveloperkeyboardlayout.spanish-developer</string>
+		<key>TISIntendedLanguage</key>
+		<string>es</string>
+	</dict>
+</dict>
+</plist>
