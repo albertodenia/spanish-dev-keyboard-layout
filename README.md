@@ -16,7 +16,7 @@ One possible solution is to switch to an English keyboard layout. However, that 
 
 The proposed solution is to modify the Spanish layout to make easier to type programming symbols without modification keys, while preserving their placement as much as possible.
 
-The idea is to have a productive layout for programming with a low learning curve for Spanish keyboard users. Some sacrifices have been made to accomplish that, like introducing some redundacies (more than one way to type a symbol).
+The idea is to have a productive layout for programming with a low learning curve for Spanish keyboard users. Some sacrifices, like introducing some redundancies or removing the `ñ`, have been made to accomplish that.
 
 The main changes are:
 
