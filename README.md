@@ -2,7 +2,7 @@
 
 A modified Spanish keyboard layout for developers.
 
-![Spanish developer keyboard layout](docs/layout.png "Pesto di pestad")
+![Spanish developer keyboard layout](docs/layout.png)
 
 This layout is based on the [Spanish International QWERTY layout](https://en.wikipedia.org/wiki/QWERTY#Spanish), with the goal of increasing the productivity of developers that use a Spanish keyboard.
 
@@ -29,7 +29,7 @@ The main changes are:
 
 ### macOS
 
-1. Copy `osx/SpanishDev.bundle` into:
+1. Copy `macos/SpanishDev.bundle` into:
 	- `/Library/Keyboard Layouts/` to install the layout for all users
 	- `~/Library/Keyboard Layouts/` to install the layout only for the current user.
 2. Add the layout as an input source by navigating to _System Preferences > Keyboard > Input Sources_. Click the add button, search for Spanish language and select the _Spanish - Developer_ layout.
