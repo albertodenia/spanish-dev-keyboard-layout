@@ -21,7 +21,7 @@ The idea is to have a productive layout for programming with a low learning curv
 The main changes are:
 
 - Numbers are switched with their ⇧ symbols, so they can be typed directly.
-- Symbols `[]{}` can be typed directly, where ``+´ç` are now typed by pressing ⌥.
+- Symbols `[]{}` can be typed directly, where `` `+´ç `` are now typed by pressing ⌥.
 - The `+` symbol, being very common, can also be typed directly with the key previously assigned to `¡`.
 - The `;` symbol (and `:` when pressing ⇧) can be also typed with the key previously assigned to `ñ`.
 
