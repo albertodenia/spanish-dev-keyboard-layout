@@ -8,31 +8,32 @@ This layout is based on the [Spanish International QWERTY layout](https://en.wik
 
 Programming languages were designed with an English keyboard in mind, making heavy use of the most accessible symbols of the English keyboard. Unfortunately many of those symbols are not easy to type in a Spanish keyboard, which makes coding unnecessarily uncomfortable and clumsy.
 
-One possible solution is to switch to an English keyboard layout, but that could be problematic for users that are used to the Spanish layout or that rely on the printed symbols for typing.
+One possible solution is to switch to an English keyboard layout. However, that could be problematic for users that are used to the Spanish layout or that rely on the printed symbols for typing.
 
 ## The layout
 
-The two main guidelines for designing this layout were:
+The proposed solution is to modify the Spanish layout to make easier to type programming symbols without modification keys, while preserving their placement as much as possible:
 
-- Symbols commonly used in programming languages should be accessible, without needing modification keys to type them.
-- Symbols should stay where they are printed. When not possible, they should be as close as possible to reduce learning time.
+![Spanish developer keyboard layout](docs/layout.png "Pesto di pestad")
 
-With those guidelines in mind these are the main decisions taken:
+The idea is to have a productive layout for programming with a low learning curve for Spanish keyboard users. Some sacrifices have been made to accomplish that, like introducing some redundacies (more than one way to type a symbol).
+
+The main changes are:
 
 - Numbers are switched with their ⇧ symbols, so they can be typed directly.
 - Symbols `[]{}` can be typed directly, where ``+´ç` are now typed by pressing ⌥.
 - The `+` symbol, being very common, can also be typed directly with the key previously assigned to `¡`.
 - The `;` symbol (and `:` when pressing ⇧) can be also typed with the key previously assigned to `ñ`.
 
-Although there are some redundancies in the final layout (that is, more than one way to type some symbols), their purpose is to make the transition smoother.
-
 ## Installation
 
 ### macOS
 
-1. Copy `osx/SpanishDev.bundle` into `/Library/Keyboard Layouts/` to install the layout for all users or into `~/Library/Keyboard Layouts/` to install the layout for the current user.
+1. Copy `osx/SpanishDev.bundle` into:
+	- `/Library/Keyboard Layouts/` to install the layout for all users
+	- `~/Library/Keyboard Layouts/` to install the layout only for the current user.
 2. Add the layout as an input source by navigating to _System Preferences > Keyboard > Input Sources_. Click the add button, search for Spanish language and select the _Spanish - Developer_ layout.
-3. You can enable the _Input menu in the menu bar_ option to quickly switch between keyboard layouts.
+3. You can enable the _Show input menu in menu bar_ option to quickly switch between keyboard layouts.
 
 ## Contributions
 
