@@ -2,6 +2,8 @@
 
 A modified Spanish keyboard layout for developers.
 
+![Spanish developer keyboard layout](docs/layout.png "Pesto di pestad")
+
 This layout is based on the [Spanish International QWERTY layout](https://en.wikipedia.org/wiki/QWERTY#Spanish), with the goal of increasing the productivity of developers that use a Spanish keyboard.
 
 ## Motivation
@@ -12,9 +14,7 @@ One possible solution is to switch to an English keyboard layout. However, that 
 
 ## The layout
 
-The proposed solution is to modify the Spanish layout to make easier to type programming symbols without modification keys, while preserving their placement as much as possible:
-
-![Spanish developer keyboard layout](docs/layout.png "Pesto di pestad")
+The proposed solution is to modify the Spanish layout to make easier to type programming symbols without modification keys, while preserving their placement as much as possible.
 
 The idea is to have a productive layout for programming with a low learning curve for Spanish keyboard users. Some sacrifices have been made to accomplish that, like introducing some redundacies (more than one way to type a symbol).
 
